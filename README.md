@@ -1,4 +1,4 @@
-# Parallel LU Decomposition
+# Concurrent LU Decompositions
 
 This embarrassingly parallel code has each process perform an LU decomposition of a square matrix.
 
