@@ -42,8 +42,6 @@ int main(int argc, char** argv) {
   gsl_permutation_free(p);
 
   double my_time = MPI_Wtime() - start;
-  cerr << my_time << endl;
-
   double* all_times = new double[world_size];
   MPI_Gather(&my_time, 1, MPI_DOUBLE, all_times, 1, MPI_DOUBLE, 0, MPI_COMM_WORLD);
  
@@ -51,9 +49,11 @@ int main(int argc, char** argv) {
     double min_time = *std::min_element(all_times, all_times + world_size);
     double max_time = *std::max_element(all_times, all_times + world_size);
 
+    /*
     for (int i = 0; i < world_size; i++) {
       cout << i << " " << all_times[i] << endl;
-    }
+    }*/
+
     cout << "min=" << min_time << endl;
     cout << "max=" << max_time << endl;
  
