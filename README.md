@@ -19,3 +19,5 @@ $ module load intel/19.0/64/19.0.5.281 intel-mpi/intel/2018.3/64
 $ make  # change CXXFLGAS
 $ sbatch job.slurm
 ```
+
+![data](https://tigress-web.princeton.edu/~jdh4/lu_decomp_embarr_par_jul29.png)
