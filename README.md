@@ -16,6 +16,6 @@ $ sbatch job.slurm
 ```
 $ module purge
 $ module load intel/19.0/64/19.0.5.281 intel-mpi/intel/2018.3/64
-$ make
+$ make  # change CXXFLGAS
 $ sbatch job.slurm
 ```
