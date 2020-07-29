@@ -1,6 +1,6 @@
 # LU decomposition per MPI process (weak scaling)
 
-This embarrassingly parallel code performs an LU decomposition of a square matrix on each MPI process. Besides an insignificant gather at the end of the run, there is no communication between processes. The number of CPU-cores is varied while the work that each CPU-core does is fixed.
+This embarrassingly parallel code performs the same LU decomposition of a square matrix on each MPI process. Besides an insignificant gather at the end of the run, there is no communication between processes. The number of CPU-cores is varied while the work that each CPU-core does is fixed.
 
 ## Tiger
 
