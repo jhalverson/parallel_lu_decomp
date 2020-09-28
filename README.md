@@ -20,4 +20,4 @@ $ make  # change CXXFLGAS
 $ sbatch job.slurm
 ```
 
-![data](https://tigress-web.princeton.edu/~jdh4/lu_decomp_embarr_par.png)
+![data](https://tigress-web.princeton.edu/~jdh4/lu_decomp_embarr_par_sept28_2020.png)
